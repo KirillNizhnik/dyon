@@ -6,12 +6,8 @@
 
 @font-face {
     font-family: 'Romile';
-    src: url('../fonts/Romile-Regular.eot');
-    src: local('Romile Regular'), local('Romile-Regular'),
-    url('../fonts/Romile-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Romile-Regular.woff2') format('woff2'),
-    url('../fonts/Romile-Regular.woff') format('woff'),
-    url('../fonts/Romile-Regular.ttf') format('truetype');
+    src: url('../fonts/Romile-Regular.woff2') format('woff2'),
+    url('../fonts/Romile-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
