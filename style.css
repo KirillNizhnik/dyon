@@ -183,3 +183,52 @@ button { border: none; outline: none; background-color: inherit}
 }
 
 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 770px)
+{
+    .header__top{
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+    .header__logo{
+        border-right:1px solid #fff;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 45px;
+    }
+
+    .container {
+        padding: 0 45px;
+        margin: auto;
+        max-width: 680px;
+    }
+    .footer__inner{
+        display: flex;
+    }
+
+    .footer__social-link{
+        margin-top: 50px;
+    }
+
+    .footer__img{
+
+        border-top: 0;
+        margin: 0;
+        max-width: 507px;
+        border-left: 1px solid #FFFFFF;
+    }
+
+    .footer__top{
+      margin: 0 0 0;
+        max-width: 1000px;
+    }
+
+    .mono-svg{
+        margin-top: 360px;
+    }
+
+
+
+}
+
