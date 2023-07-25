@@ -91,6 +91,10 @@ button { border: none; outline: none; background-color: inherit}
     display: none;
 }
 
+.menu-visible{
+    display: block;
+}
+
 .title{
     margin-top: 30px;
     color: #FFF;
@@ -183,8 +187,35 @@ button { border: none; outline: none; background-color: inherit}
 }
 
 
-@media only screen and (min-width: 770px)
-{
+
+
+
+
+@media only screen and (min-width: 700px){
+
+    .title{
+        color: #FFF;
+        font-family: "Romile", sans-serif;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .text{
+        color: #FFF;
+        font-family: "Montserrat", sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .container {
+        padding: 0 45px;
+        margin: auto;
+        max-width: 680px;
+    }
+
     .header__top{
         margin-top: 0;
         margin-bottom: 0;
@@ -197,18 +228,50 @@ button { border: none; outline: none; background-color: inherit}
         padding-right: 45px;
     }
 
-    .container {
-        padding: 0 45px;
-        margin: auto;
-        max-width: 680px;
+
+    .title{
+        margin-top: 38px;
     }
 
+    .unique_beauties__title{
+        margin-top: 0;
+    }
+
+    .title + .text{
+        margin-top: 38px;
+    }
+
+    .text + .text{
+        margin-top: 40px;
+    }
+
+    .unique_beauties__image{
+        margin-top: 82px;
+    }
+
+    .about-the-store__image{
+        margin-top: 67px;
+    }
+
+    .about-me__image{
+        margin-top: 55px;
+    }
+
+    .gallery__title{
+        margin-top: 40px;
+    }
+    .gallery__slider{
+        margin-top: 40px;
+    }
 
     .footer{
         margin-top: 200px;
     }
+
     .footer__inner{
         display: flex;
+        justify-content: space-between;
+        margin: 0;
     }
 
     .footer__social-link{
@@ -224,15 +287,118 @@ button { border: none; outline: none; background-color: inherit}
     }
 
     .footer__top{
-      margin: 0 0 0;
-        max-width: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 auto;
+
     }
 
     .mono-svg{
-        margin-top: 360px;
+        margin-top: 0;
+        margin-bottom: 89px;
+    }
+}
+
+
+@media only screen and (min-width: 1200px){
+
+    .title{
+        color: #FFF;
+        font-family: "Romile", sans-serif;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .text{
+        color: #FFF;
+        font-family: "Montserrat", sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .unique_beauties__title{
+        margin-top: 0;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    .menu__list{
+        display: flex;
+        padding-right: 145px;
+    }
+
+    .menu__list-item{
+        padding-right: 70px;
+    }
+
+    .menu__list-item:last-child {
+        padding-right: 0;
+    }
+
+    .header__menu-btn{
+        display: none;
+    }
+    .container{
+        margin-top: 0;
+        max-width: 1022px;
     }
 
 
+    .unique_beauties__section-order{
+        order: 2;
+    }
+
+
+    .unique_beauties__section{
+        border-bottom: 1px solid #FFFFFF;
+        margin-top: 0;
+        padding-top: 0;
+        display: flex;
+    }
+
+
+    .unique_beauties__image{
+        order: 1;
+        margin-top: 0;
+        width: 841px;
+        border-top: 0;
+        border-bottom: 0;
+    }
+
+    .about-the-store__section{
+        display: flex;
+        border-bottom: 1px solid #FFFFFF;
+    }
+
+    .title{
+        padding-top: 70px;
+    }
+
+    .text + .text{
+        margin-top: 70px;
+    }
+
+    .about-the-store__image{
+        border-bottom: 0;
+        width: 806px;
+        margin-top: 0;
+    }
+
+    .about-the-store__title{
+        text-align: left;
+    }
+
+    .about-the-store__text{
+        text-align: left;
+    }
 
 }
+
 
